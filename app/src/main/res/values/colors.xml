@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#d6d2d6</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="colorIntoTextEdit">#d6d2d6</color>
+
+    <color name="trust_hi">#66e72f</color>
+    <color name="trust_med">#28ba5b</color>
+    <color name="trust_lo">#e9dd3a</color>
+    <color name="trust_spam">#f16400</color>
+</resources>

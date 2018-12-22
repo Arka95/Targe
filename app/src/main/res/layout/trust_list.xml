@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/LomoGrey"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        style="@style/LomoGrey"
+        android:layout_width="match_parent"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/personname"
+            style="@style/LomoGrey"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Person"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/trustvalue"
+            style="@style/LomoGrey"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="TrustValue"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/options"
+            style="@style/LomoGrey"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Options"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
+

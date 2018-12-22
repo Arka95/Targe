@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LomoGrey"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_mlp_trust_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Buts"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="5dp"
+        android:text="UPLOAD"
+    />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="3">
+
+        <TextView
+            style="@style/DisplayTrust"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:paddingLeft="8dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingRight="8dp"
+            android:background="@color/trust_spam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPAM" />
+        <TextView
+            style="@style/DisplayTrust"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:paddingLeft="8dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingRight="8dp"
+            android:background="@color/trust_lo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOW" />
+        <TextView
+            style="@style/DisplayTrust"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:paddingLeft="8dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingRight="8dp"
+            android:background="@color/trust_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEDIUM" />
+        <TextView
+            android:id="@+id/predicted_trust"
+            style="@style/DisplayTrust"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:paddingLeft="8dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIGH" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listTrustEdit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        />
+</LinearLayout>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/LomoGrey"
+    android:weightSum="4"
+    >
+    <RelativeLayout
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Arka Bhowmik"
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dip"
+            android:paddingLeft="8dip"
+            android:paddingBottom="4dip"
+            style="@style/LomoGrey"
+            android:textStyle="bold"
+            android:layout_width="wrap_content" />
+
+        <TextView android:id="@+id/number"
+            android:text="+917278194445"
+            android:layout_height="wrap_content"
+            style="@style/MoloGrey"
+            android:layout_below="@id/name"
+            android:layout_width="wrap_content" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/trust"
+        android:layout_marginTop="15dp"
+        style="@style/DisplayTrust"
+        android:textColor="@color/colorAccent"
+        android:layout_toLeftOf="@+id/bholder"
+        android:textStyle="bold"
+        android:paddingLeft="8dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textSize="20sp"
+        android:paddingRight="8dp"
+        android:background="@color/trust_spam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPAM" />
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/bholder"
+
+        android:weightSum="2"
+        android:layout_width="wrap_content">
+
+    <ImageButton
+        android:id="@+id/call"
+        style="@style/Buts"
+        android:src="@drawable/ic_call"
+        android:layout_weight="1"
+         />
+</LinearLayout>
+</RelativeLayout>

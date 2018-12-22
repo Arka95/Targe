@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Targe</string>
+    <string name="action_upload">Upload</string>
+    <string name="search_hint">Contacts</string>
+    <string name="search_title">Search</string>
+    <string name="search_results">Results</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+<string name="getTrust">Get Global Trust</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_uid">UserId (unique)</string>
+    <string name="prompt_name">Full Name</string>
+    <string name="prompt_dob">Date Of Birth (optional)</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_cpassword"> Confirm Password</string>
+    <string name="prompt_country">Country (optional)</string>
+    <string name="prompt_state">State (optional)</string>
+    <string name="prompt_city">City (optional)</string>
+    <string name="hint_name">Full name</string>
+
+
+    <string name="trust_hi">HIGH</string>
+    <string name="trust_med">MEDIUM</string>
+    <string name="trust_low">LOW</string>
+    <string name="trust_spam">SPAM</string>
+
+
+</resources>

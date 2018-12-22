@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LomoGrey"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="0dp"
+    android:weightSum="4">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name2"
+            style="@style/LomoGrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dip"
+            android:paddingBottom="3dip"
+            android:text="Arka Bhowmik"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number2"
+            style="@style/MoloGrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name2"
+            android:text="+917278194445" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="#474053"
+        android:padding="5dp"
+        android:id="@+id/trustholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:weightSum="2">
+        <RatingBar
+            style="?android:attr/ratingBarStyleIndicator"
+            android:id="@+id/ratingBar"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:min="1"
+            android:rating="3"
+            android:stepSize="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

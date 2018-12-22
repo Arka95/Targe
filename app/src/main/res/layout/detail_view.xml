@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:text="Name:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DialogBox"
+                    />
+                <TextView
+                    android:id="@+id/tvname"
+                    android:text="N/A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DialogBox"
+
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Number:"
+
+                    style="@style/DialogBox"
+                    />
+                <TextView
+                    android:id="@+id/tvnumber"
+                    android:text="N/A"
+                    style="@style/DialogBox"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Local Trust:"
+                    style="@style/DialogBox"
+                    />
+                <TextView
+                    android:id="@+id/tvtrust"
+                    android:text="N/A"
+                    style="@style/DialogBox"
+
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Duration IN:"
+                    style="@style/DialogBox"
+                    />
+                <TextView
+                    android:id="@+id/tvdin"
+                    android:text="N/A"
+                    style="@style/DialogBox"
+
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Duration OUT:"
+                    style="@style/DialogBox"
+                    />
+                <TextView
+                    android:id="@+id/tvdout"
+                    android:text="N/A"
+                    style="@style/DialogBox"
+
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Calls IN:"
+                    style="@style/DialogBox"
+                    />
+                <TextView
+                    android:id="@+id/tvcin"
+                    android:text="N/A"
+                    style="@style/DialogBox"
+
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Calls OUT:"
+                    style="@style/DialogBox"
+                    />
+                <TextView
+                    android:id="@+id/tvcout"
+                    android:text="N/A"
+                    style="@style/DialogBox"
+
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:text="GLOBAL TRUST:"
+                    style="@style/DialogBox"
+                    android:id="@+id/Global" />
+                <Button
+                    style="@style/Buts"
+                    android:id="@+id/GT"
+                    android:layout_toRightOf="@id/Global"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/getTrust"
+                    />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
